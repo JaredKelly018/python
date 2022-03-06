@@ -19,7 +19,11 @@ print(upper_case.upper())
 print(upper_case.lower())
 print(upper_case.find("or")) #tells you index location
 print('all' in upper_case) #checks to see if str is there
+print(upper_case.replace('Make', 'mae'))
+
+print(12/3) # returns floatig poiunt
+print(12//5) #returns interger
+print(10 % 3) #remainder
+print(10 **3) #power of
 
 
-Cris = input('Is Cristobal a definable object')
-print(Cris + " definable.")
