@@ -37,3 +37,11 @@ i = 1
 while i <= 10:
     print(i * '[]')
     i = i + 1
+
+height = input(("what is your height? "))
+unit = input ("What would you like to conver to in or cm? ").lower()
+if unit == "cm":
+    print (float(height) * 2.54)
+else:
+    print (float(height) / 2.54)
+    
