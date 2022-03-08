@@ -31,3 +31,9 @@ if weightType == "lbs":
     print(float(weight) / 2.205)
 else:
     print(float(weight) * 2.205)
+
+
+i = 1
+while i <= 10:
+    print(i * '[]')
+    i = i + 1
