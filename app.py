@@ -44,4 +44,15 @@ if unit == "cm":
     print (float(height) * 2.54)
 else:
     print (float(height) / 2.54)
-    
+
+i = 1
+
+while i <= 100:
+    print(i)
+    i = i + 1
+    if i % 3 == 0:
+        print('Fizz')
+    if i % 5 == 0:
+        print('Buzz')
+    if i % 3 == 0 and i % 5 == 0:
+        print('FizzBuzz')
