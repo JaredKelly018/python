@@ -45,14 +45,12 @@ if unit == "cm":
 else:
     print (float(height) / 2.54)
 
-i = 1
-
-while i <= 100:
-    print(i)
-    i = i + 1
-    if i % 3 == 0:
-        print('Fizz')
-    if i % 5 == 0:
-        print('Buzz')
-    if i % 3 == 0 and i % 5 == 0:
-        print('FizzBuzz')
+arr = list(range(1,101))
+for i in range(len(arr)):
+    if arr[i] % 3 == 0 and not arr[i] % 5 == 0:
+        arr[i] = "Fizz"
+    elif arr[i] % 5 == 0 and not arr[i] % 3 ==0:
+        arr[i] = "Buzz"
+    elif arr[i] % 3 == 0 and arr[i] % 5 == 0:
+        arr[i] = "FizzBuzz"
+print(arr)
