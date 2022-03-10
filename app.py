@@ -1,3 +1,6 @@
+from tkinter.font import names
+
+
 gender = input('What prouns would you like me to use for you?')
 print('You have chosen ' + gender + '.')
 
@@ -54,3 +57,38 @@ for i in range(len(arr)):
     elif arr[i] % 3 == 0 and arr[i] % 5 == 0:
         arr[i] = "FizzBuzz"
 print(arr)
+
+names = ['Jane', 'Doe', 'Kev']
+names[0] = 'John'
+print(names)
+
+vnames = ['lemo', 'bee', 'free']
+print(vnames[-1])
+
+pets= ['cat', 'dog', 'rat', 'zebra']
+print(pets[0:3])
+
+
+numbers = [1,2,3,4,5]
+numbers.append(6)
+numbers.insert(2,'this does not go here')
+numbers.remove(5)
+#.clear() to clear
+print(numbers)
+print(1 in numbers) #search for val in array
+print(len(numbers)) #how many numers you have in array
+
+#for loops
+for item in numbers:
+    print(item)
+
+i=0
+while i < len(numbers):
+    print(numbers[i])
+    i += 1
+
+for nums in range(1,11,2):
+    print(nums)
+
+#turples are innmutable
+ tnumbers = (1,2,3)
