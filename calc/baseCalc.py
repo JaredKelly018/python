@@ -1,12 +1,14 @@
+import sys
+
 eq = "x _ y ="
 print(eq)
-
-op = input("What operation whould yuou like to complete today ")
-print(op)
 
 x = input("what does x equal? ")
 
 y = input("what does y equal? ")
+
+op = input("What operation whould yuou like to complete today ")
+print(op)
 
 if op == "add":
     print(x + " + " +  y + " =")
@@ -21,4 +23,7 @@ elif op == 'div':
     print(x + " / " +  y + " =")
     print(float(x) / float(y))
 else:
-    print('The operation ytou wish to preform does not exsist')
+    print('operation does not exsist')
+    sys.exit()
+
+    #asdsadsad
