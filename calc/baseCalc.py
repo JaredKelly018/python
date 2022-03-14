@@ -1,5 +1,10 @@
+import sys
+x = 0
+y = 0
 eq = "x _ y ="
 print(eq)
+
+
 
 op = input("What operation whould yuou like to complete today ")
 print(op)
@@ -8,7 +13,10 @@ x = input("what does x equal? ")
 
 y = input("what does y equal? ")
 
-if op == "add":
+if op == str:
+    print(help)
+    sys.exit()
+elif op == "add":
     print(x + " + " +  y + " =")
     print(float(x) + float(y))
 elif op == 'sub':
@@ -21,4 +29,6 @@ elif op == 'div':
     print(x + " / " +  y + " =")
     print(float(x) / float(y))
 else:
-    print('The operation ytou wish to preform does not exsist')
+    print('operation does not exsist')
+    sys.exit()
+
