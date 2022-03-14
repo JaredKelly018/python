@@ -3,9 +3,10 @@ import sys
 eq = "x _ y ="
 print(eq)
 
-
-
 op = input("Would you like to add, sub, mult, or div? ").lower()
+print(op)
+
+op = input("What operation whould yuou like to complete today ")
 print(op)
 
 if op == "add":
@@ -31,4 +32,3 @@ elif op == 'div':
 else:
     print('operation does not exsist')
     sys.exit()
-
