@@ -1,31 +1,31 @@
 import sys
-x = 0
-y = 0
+
 eq = "x _ y ="
 print(eq)
 
 
 
-op = input("What operation whould yuou like to complete today ")
+op = input("Would you like to add, sub, mult, or div? ").lower()
 print(op)
 
-x = input("what does x equal? ")
-
-y = input("what does y equal? ")
-
-if op == str:
-    print(help)
-    sys.exit()
-elif op == "add":
+if op == "add":
+    x = input("what does x equal? ")
+    y = input("what does y equal? ")   
     print(x + " + " +  y + " =")
     print(float(x) + float(y))
 elif op == 'sub':
+    x = input("what does x equal? ")
+    y = input("what does y equal? ")   
     print(x + " - " +  y + " =")
     print(float(x) - float(y))
 elif op == 'mult':
+    x = input("what does x equal? ")
+    y = input("what does y equal? ")   
     print(x + " x " +  y + " =")
     print(float(x) * float(y))
 elif op == 'div':
+    x = input("what does x equal? ")
+    y = input("what does y equal? ")   
     print(x + " / " +  y + " =")
     print(float(x) / float(y))
 else:
