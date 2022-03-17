@@ -1,5 +1,5 @@
-#2.54
 
+height = input(("what is your height? "))
 height = input(("what is your height? "))
 unit = input ("What would you like to conver to in or cm? ").lower()
 if unit == "cm":
