@@ -3,8 +3,6 @@ import sys
 eq = "x _ y ="
 print(eq)
 
-
-
 op = input("Would you like to add, sub, mult, or div? ").lower()
 print(op)
 
