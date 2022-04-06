@@ -16,4 +16,3 @@ t3itemPrice = t3sellPrice * 30
 t2profit = t2itemPrice - t2combinePrice
 t3profit = t3itemPrice - t3combinePrice
 print(f' Your profit is from Tier 2 is {t2profit} \n Your profit from Tier 3 is {t3profit} gold. ')
-print(t2combinePrice)
