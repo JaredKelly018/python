@@ -1,12 +1,13 @@
 t2production = 79
 t3production = 200
-
+pearls = 2
 
 baseFish = int(input('What is todays current normal fish price? '))
+
 t2Fish = int(input('What is todays current tier 2 fish price? '))
 t3Fish = int(input('What is todays current tier 3 fish price? '))
-t2combinePrice = baseFish + t2Fish + t2production
-t3combinePrice = baseFish + t3Fish + t3production
+t2combinePrice = baseFish + t2Fish + t2production + pearls
+t3combinePrice = baseFish + t3Fish + t3production + pearls
 print(f'The crafting cost is tier 2 will be {t2combinePrice} gold')
 print(f'The crafting cost is tier 3 will be {t3combinePrice} gold')
 t2sellPrice = int(input('How much is the TIER 2 item going for on the market? '))
