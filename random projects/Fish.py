@@ -15,7 +15,9 @@ t2sellPrice = int(input('How much is the TIER 2 item going for on the market? ')
 t3sellPrice = int(input('How much is the TIER 3 item going for on the market? '))
 t2itemPrice = t2sellPrice * item
 t3itemPrice = t3sellPrice * item
-t2profit = t2itemPrice - (t2combinePrice + (item * .05 * item)) 
-t3profit = t3itemPrice - (t3combinePrice) 
+t2TransactionFee = item * 1
+t3TransactionFee = item * 1
+t2profit = t2itemPrice - (t2combinePrice + t2TransactionFee) 
+t3profit = t3itemPrice - (t3combinePrice + t3TransactionFee) 
 print(f' Your profit is from Tier 2 is {t2profit} \n Your profit from Tier 3 is {t3profit} gold. ')
-print((item * .05 * item))
+
