@@ -1,6 +1,6 @@
 t2production = 78
 t3production = 198
-pearls = 2
+pearls = 1
 
 baseFish = int(input('What is todays current normal fish price? '))
 
