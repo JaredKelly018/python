@@ -1,8 +1,6 @@
 t2production = 78
 t3production = 198
-
 pearls = 1
-
 item =30
 
 
